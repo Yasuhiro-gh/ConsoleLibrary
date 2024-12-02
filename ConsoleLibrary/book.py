@@ -7,7 +7,7 @@ class Book:
         self.status = status
 
     def __str__(self) -> str:
-        return f"ID: {self.id}, Title: {self.title}, Author: {self.author}, Status: {self.status}"
+        return f"ID: {self.id}, Title: {self.title}, Author: {self.author}, Year: {self.year}, Status: {self.status}"
 
     def __eq__(self, other):
         if not isinstance(other, Book):
