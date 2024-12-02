@@ -42,5 +42,10 @@ python -m ConsoleLibrary --search
 ```
 python -m ConsoleLibrary --change
 ```
+## Тесты
+Запуск тестов
+```
+python -m unittest tests.test_library
+```
 
 
